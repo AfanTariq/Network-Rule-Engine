@@ -1,0 +1,6 @@
+C:\Users\AFAN\source\repos\OOP Projects\OOP Projects\x64\Debug\OOP Projects.vcxproj.AssemblyReference.cache
+C:\Users\AFAN\source\repos\OOP Projects\OOP Projects\x64\Debug\OOPProjects.MainForm.resources
+C:\Users\AFAN\source\repos\OOP Projects\OOP Projects\x64\Debug\OOP Projects.vcxproj.GenerateResource.cache
+C:\Users\AFAN\source\repos\MAIN GUI FILE\OOP Projects\x64\Debug\OOP Projects.vcxproj.AssemblyReference.cache
+C:\Users\AFAN\source\repos\MAIN GUI FILE\OOP Projects\x64\Debug\OOPProjects.MainForm.resources
+C:\Users\AFAN\source\repos\MAIN GUI FILE\OOP Projects\x64\Debug\OOP Projects.vcxproj.GenerateResource.cache

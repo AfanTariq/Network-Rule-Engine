@@ -1,0 +1,41 @@
+SrcIP: 23.192.192.168, DstIP: 54.171.0.0, SrcPort: 1, DstPort: 2048, Proto: OTHER
+SrcIP: 192.168.54.177, DstIP: 35.174.127.31, SrcPort: 51370, DstPort: 443, Proto: TCP
+SrcIP: 192.168.54.177, DstIP: 192.168.54.171, SrcPort: 55913, DstPort: 53, Proto: UDP
+SrcIP: 34.36.57.103, DstIP: 192.168.54.177, SrcPort: 443, DstPort: 51059, Proto: UDP
+SrcIP: 192.168.54.177, DstIP: 34.237.73.95, SrcPort: 51337, DstPort: 443, Proto: TCP
+SrcIP: 20.189.173.7, DstIP: 192.168.54.177, SrcPort: 443, DstPort: 49978, Proto: TCP
+SrcIP: 34.237.73.95, DstIP: 192.168.54.177, SrcPort: 443, DstPort: 51337, Proto: TCP
+SrcIP: 192.168.54.177, DstIP: 34.237.73.95, SrcPort: 51337, DstPort: 443, Proto: TCP
+SrcIP: 192.168.54.177, DstIP: 35.174.127.31, SrcPort: 51370, DstPort: 443, Proto: TCP
+SrcIP: 192.168.54.177, DstIP: 104.18.26.90, SrcPort: 49898, DstPort: 443, Proto: TCP
+Tue May 20 06:33:01 2025 - SrcIP: 4.94.42.236, DstIP: 248.48.194.38, SrcPort: 24589, DstPort: 42347, Proto: OTHER - Action: DENY
+Tue May 20 06:47:38 2025 - SrcIP: 192.168.54.177, DstIP: 35.174.127.31, SrcPort: 51370, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:47:39 2025 - SrcIP: 192.168.54.177, DstIP: 34.36.57.103, SrcPort: 50096, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:47:42 2025 - SrcIP: 4.94.42.236, DstIP: 248.48.194.38, SrcPort: 24588, DstPort: 53667, Proto: OTHER - Action: DENY
+Tue May 20 06:47:43 2025 - SrcIP: 192.168.54.177, DstIP: 20.189.173.15, SrcPort: 50020, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:47:44 2025 - SrcIP: 20.189.173.15, DstIP: 192.168.54.177, SrcPort: 443, DstPort: 50020, Proto: TCP - Action: DENY
+Tue May 20 06:47:50 2025 - SrcIP: 192.168.54.177, DstIP: 34.237.73.95, SrcPort: 51337, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:47:53 2025 - SrcIP: 192.168.54.177, DstIP: 192.168.54.171, SrcPort: 49396, DstPort: 53, Proto: UDP - Action: ALLOW
+Tue May 20 06:47:55 2025 - SrcIP: 108.139.79.84, DstIP: 192.168.54.177, SrcPort: 443, DstPort: 50098, Proto: TCP - Action: DENY
+Tue May 20 06:47:58 2025 - SrcIP: 4.94.42.236, DstIP: 248.48.194.38, SrcPort: 24584, DstPort: 23865, Proto: OTHER - Action: DENY
+Tue May 20 06:48:03 2025 - SrcIP: 192.168.54.177, DstIP: 192.168.54.171, SrcPort: 62562, DstPort: 53, Proto: UDP - Action: ALLOW
+Tue May 20 06:50:18 2025 - SrcIP: 192.168.54.177, DstIP: 35.174.127.31, SrcPort: 51370, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:50:19 2025 - SrcIP: 23.192.192.168, DstIP: 54.171.0.0, SrcPort: 1, DstPort: 2048, Proto: OTHER - Action: DENY
+Tue May 20 06:50:21 2025 - SrcIP: 192.168.54.177, DstIP: 107.22.189.179, SrcPort: 50103, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:50:24 2025 - SrcIP: 42.0.20.80, DstIP: 64.25.8.7, SrcPort: 0, DstPort: 34525, Proto: OTHER - Action: DENY
+Tue May 20 06:50:25 2025 - SrcIP: 192.168.54.177, DstIP: 18.208.48.59, SrcPort: 50109, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:50:28 2025 - SrcIP: 192.168.54.177, DstIP: 20.189.173.15, SrcPort: 50020, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:50:29 2025 - SrcIP: 20.189.173.15, DstIP: 192.168.54.177, SrcPort: 443, DstPort: 50020, Proto: TCP - Action: DENY
+Tue May 20 06:50:30 2025 - SrcIP: 192.168.54.177, DstIP: 34.237.73.95, SrcPort: 51337, DstPort: 443, Proto: TCP - Action: DENY
+Tue May 20 06:50:31 2025 - SrcIP: 34.237.73.95, DstIP: 192.168.54.177, SrcPort: 443, DstPort: 51337, Proto: TCP - Action: DENY
+Tue May 20 06:50:32 2025 - SrcIP: 192.168.54.177, DstIP: 37.111.186.51, SrcPort: 50072, DstPort: 443, Proto: TCP - Action: DENY
+Wed May 21 07:09:16 2025 - SrcIP: 192.168.18.145, DstIP: 35.174.127.31, SrcPort: 52095, DstPort: 443, Proto: TCP - Action: DENY
+Wed May 21 07:09:17 2025 - SrcIP: 0.8.8.192, DstIP: 165.234.90.22, SrcPort: 24584, DstPort: 41418, Proto: OTHER - Action: DENY
+Wed May 21 07:09:18 2025 - SrcIP: 64.24.8.6, DstIP: 0.0.0.0, SrcPort: 24576, DstPort: 0, Proto: OTHER - Action: DENY
+Wed May 21 07:09:19 2025 - SrcIP: 0.8.8.192, DstIP: 165.234.90.22, SrcPort: 24580, DstPort: 15172, Proto: OTHER - Action: DENY
+Wed May 21 07:09:20 2025 - SrcIP: 12.12.12.16, DstIP: 0.0.0.0, SrcPort: 24576, DstPort: 21277, Proto: OTHER - Action: DENY
+Wed May 21 07:09:21 2025 - SrcIP: 192.168.18.145, DstIP: 34.237.73.95, SrcPort: 53085, DstPort: 443, Proto: TCP - Action: DENY
+Wed May 21 07:09:22 2025 - SrcIP: 34.237.73.95, DstIP: 192.168.18.145, SrcPort: 443, DstPort: 53085, Proto: TCP - Action: DENY
+Wed May 21 07:09:23 2025 - SrcIP: 0.8.8.192, DstIP: 165.234.90.22, SrcPort: 24590, DstPort: 48436, Proto: OTHER - Action: DENY
+Wed May 21 07:09:24 2025 - SrcIP: 0.8.8.192, DstIP: 165.234.90.22, SrcPort: 24590, DstPort: 48436, Proto: OTHER - Action: DENY
+Wed May 21 07:09:25 2025 - SrcIP: 64.24.8.6, DstIP: 0.0.0.0, SrcPort: 24576, DstPort: 0, Proto: OTHER - Action: DENY

@@ -1,0 +1,15 @@
+﻿  Class.cpp
+C:\Users\AFAN\source\repos\OOP PROJECT\OOP PROJECT\Class.cpp(61,38): warning C4101: 'e': unreferenced local variable
+C:\Users\AFAN\source\repos\OOP PROJECT\OOP PROJECT\Class.cpp(74,38): warning C4101: 'e': unreferenced local variable
+  NetworkPacketCapture.cpp
+  Packet.cpp
+  Rule.cpp
+  RuleEngine.cpp
+  TimeBasedRule.cpp
+C:\Users\AFAN\source\repos\OOP PROJECT\OOP PROJECT\TimeBasedRule.cpp(21,18): warning C4566: character represented by universal-character-name '\u2514' cannot be represented in the current code page (1252)
+C:\Users\AFAN\source\repos\OOP PROJECT\OOP PROJECT\TimeBasedRule.cpp(21,18): warning C4566: character represented by universal-character-name '\u2500' cannot be represented in the current code page (1252)
+  MainForm.cpp
+  Generating Code...
+  Class.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+NetworkPacketCapture.obj : warning LNK4248: unresolved typeref token (0100001F) for 'pcap'; image may not run
+  OOP Projects.vcxproj -> C:\Users\AFAN\source\repos\MAIN GUI FILE\x64\Debug\OOP Projects.exe

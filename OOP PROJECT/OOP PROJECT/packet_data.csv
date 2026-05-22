@@ -1,0 +1,5 @@
+source_ip,destination_ip,source_port,destination_port,protocol,length
+192.168.1.1,10.0.1.5,54321,80,TCP,512
+10.0.1.5,192.168.1.1,80,54321,TCP,256
+8.8.8.8,10.0.1.5,53,12345,UDP,128
+6.6.6.6,10.0.1.5,80,54321,TCP,1024

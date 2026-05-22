@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D39BB484-CE51-CF01-4875-394E39B0F38B}|OOP Projects\\OOP Projects.vcxproj|C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D39BB484-CE51-CF01-4875-394E39B0F38B}|OOP Projects\\OOP Projects.vcxproj|solutionrelative:OOP Projects\\MainForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39BB484-CE51-CF01-4875-394E39B0F38B}|OOP Projects\\OOP Projects.vcxproj|C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D39BB484-CE51-CF01-4875-394E39B0F38B}|OOP Projects\\OOP Projects.vcxproj|solutionrelative:OOP Projects\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39BB484-CE51-CF01-4875-394E39B0F38B}|OOP Projects\\OOP Projects.vcxproj|C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{D39BB484-CE51-CF01-4875-394E39B0F38B}|OOP Projects\\OOP Projects.vcxproj|solutionrelative:OOP Projects\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.h [Design]",
+              "DocumentMoniker": "C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.h",
+              "RelativeDocumentMoniker": "OOP Projects\\MainForm.h",
+              "ToolTip": "C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.h [Design]",
+              "RelativeToolTip": "OOP Projects\\MainForm.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-21T00:02:09.644Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cpp",
+              "DocumentMoniker": "C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.cpp",
+              "RelativeDocumentMoniker": "OOP Projects\\MainForm.cpp",
+              "ToolTip": "C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.cpp",
+              "RelativeToolTip": "OOP Projects\\MainForm.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-21T00:12:55.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.h",
+              "DocumentMoniker": "C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.h",
+              "RelativeDocumentMoniker": "OOP Projects\\MainForm.h",
+              "ToolTip": "C:\\Users\\AFAN\\source\\repos\\MAIN GUI FILE\\OOP Projects\\MainForm.h",
+              "RelativeToolTip": "OOP Projects\\MainForm.h",
+              "ViewState": "AgIAAAkAAAAAmJmZmZkuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-21T00:09:39.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

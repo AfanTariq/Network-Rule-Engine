@@ -1,0 +1,19 @@
+--- Traffic Log Started: 2025-05-21 05:50:16 ---
+[2025-05-21 05:50:23] Packet: (SrcIP: 0.0.0.0, DstIP: 57.115.171.164, SrcPort: 24589, DstPort: 11594, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:24] Packet: (SrcIP: 0.8.8.192, DstIP: 165.234.90.22, SrcPort: 24583, DstPort: 47841, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:25] Packet: (SrcIP: 225.234.192.168, DstIP: 18.145.72.76, SrcPort: 1, DstPort: 2048, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:26] Packet: (SrcIP: 64.24.8.8, DstIP: 0.0.0.0, SrcPort: 24576, DstPort: 0, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:27] Packet: (SrcIP: 64.24.8.8, DstIP: 0.0.0.0, SrcPort: 24576, DstPort: 0, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:28] Packet: (SrcIP: 0.8.8.192, DstIP: 165.234.90.22, SrcPort: 24581, DstPort: 26844, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:29] Packet: (SrcIP: 0.8.8.192, DstIP: 165.234.90.22, SrcPort: 24590, DstPort: 7388, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:30] Packet: (SrcIP: 64.1.240.203, DstIP: 192.168.18.1, SrcPort: 0, DstPort: 2048, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:32] Packet: (SrcIP: 44.208.83.25, DstIP: 192.168.18.145, SrcPort: 443, DstPort: 52743, Proto: TCP) -> Action: DENY, Reason: Default Action
+[2025-05-21 05:50:33] Packet: (SrcIP: 64.1.240.47, DstIP: 192.168.18.1, SrcPort: 0, DstPort: 2048, Proto: OTHER) -> Action: DENY, Reason: Default Action
+--- Traffic Log Started: 2025-05-21 05:53:36 ---
+--- Traffic Log Started: 2025-05-21 05:53:47 ---
+--- Traffic Log Started: 2025-05-21 23:05:53 ---
+[2025-05-21 23:06:03] Packet: (SrcIP: 0.8.109.11, DstIP: 228.40.171.147, SrcPort: 24588, DstPort: 2728, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 23:06:04] Packet: (SrcIP: 192.168.18.145, DstIP: 20.189.173.23, SrcPort: 51320, DstPort: 443, Proto: TCP) -> Action: DENY, Reason: Default Action
+[2025-05-21 23:06:05] Packet: (SrcIP: 192.168.18.145, DstIP: 20.189.173.23, SrcPort: 51320, DstPort: 443, Proto: TCP) -> Action: DENY, Reason: Default Action
+[2025-05-21 23:06:06] Packet: (SrcIP: 0.8.109.11, DstIP: 228.40.171.147, SrcPort: 24590, DstPort: 44467, Proto: OTHER) -> Action: DENY, Reason: Default Action
+[2025-05-21 23:06:14] Packet: (SrcIP: 192.168.18.50, DstIP: 224.0.0.251, SrcPort: 5353, DstPort: 5353, Proto: UDP) -> Action: DENY, Reason: Default Action

@@ -1,0 +1,4 @@
+RuleType,ID,Name,SrcIP,DestIP,SrcPort,DestPort,Protocol,Action,Priority,StartHour,EndHour
+Standard,1,"Allow All HTTPS",ANY,ANY,-1,443,TCP,ALLOW,10
+TimeBased,2,"Allow SSH (Business Hours)",ANY,ANY,-1,22,TCP,ALLOW,20,9,23
+Standard,3,"Block Telnet",ANY,ANY,-1,23,TCP,DENY,100

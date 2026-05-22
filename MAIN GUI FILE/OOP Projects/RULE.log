@@ -1,0 +1,213 @@
+Network Rules Log
+Generated: 26/05/2025 9:07:37 am
+=================================
+[Rule: Allow HTTPS]
+  Source: 172.16.0.0/16:-1
+  Destination: 10.0.1.0/24:-1
+  Protocol: UDP
+  Action: LOG
+  Priority: 37
+  Time: 0..23
+---------------------------------
+[Rule: Block Telnet]
+  Source: 172.16.0.0/16:-1
+  Destination: 192.168.100.0/24:25
+  Protocol: TCP
+  Action: LOG
+  Priority: 76
+  Time: 0..23
+---------------------------------
+[Rule: Log FTP]
+  Source: 10.0.0.0/8:-1
+  Destination: 6.6.6.6:53
+  Protocol: TCP
+  Action: LOG
+  Priority: 18
+  Time: 18..6
+---------------------------------
+[Rule: Allow DNS]
+  Source: 172.16.0.0/16:-1
+  Destination: 8.8.8.8:443
+  Protocol: TCP
+  Action: DENY
+  Priority: 95
+---------------------------------
+[Rule: Block SSH]
+  Source: 192.168.1.0/24:-1
+  Destination: 10.0.1.0/24:-1
+  Protocol: UDP
+  Action: DENY
+  Priority: 43
+  Time: 0..23
+---------------------------------
+[Rule: Allow Mail]
+  Source: 192.168.1.0/24:-1
+  Destination: 192.168.100.0/24:443
+  Protocol: TCP
+  Action: LOG
+  Priority: 38
+  Time: 9..17
+---------------------------------
+[Rule: Deny ICMP]
+  Source: 172.16.0.0/16:-1
+  Destination: 8.8.8.8:445
+  Protocol: UDP
+  Action: DENY
+  Priority: 64
+---------------------------------
+[Rule: Log Admin Access]
+  Source: 172.16.0.0/16:-1
+  Destination: ANY:443
+  Protocol: ANY
+  Action: ALLOW
+  Priority: 79
+  Time: 9..17
+---------------------------------
+[Rule: Allow Web]
+  Source: 192.168.1.0/24:-1
+  Destination: ANY:3389
+  Protocol: TCP
+  Action: ALLOW
+  Priority: 28
+  Time: 0..23
+---------------------------------
+[Rule: Block Malware Site]
+  Source: 10.0.0.0/8:-1
+  Destination: 192.168.100.0/24:0
+  Protocol: UDP
+  Action: LOG
+  Priority: 44
+---------------------------------
+[Rule: Allow Corp Apps]
+  Source: 10.0.0.0/8:-1
+  Destination: 8.8.8.8:25
+  Protocol: UDP
+  Action: DENY
+  Priority: 18
+  Time: 0..23
+---------------------------------
+[Rule: Deny External Access]
+  Source: 10.0.0.0/8:-1
+  Destination: 8.8.8.8:445
+  Protocol: UDP
+  Action: LOG
+  Priority: 74
+---------------------------------
+[Rule: Log Intranet]
+  Source: 172.16.0.0/16:-1
+  Destination: 10.0.1.0/24:3389
+  Protocol: UDP
+  Action: DENY
+  Priority: 97
+  Time: 9..17
+---------------------------------
+[Rule: Block Spam]
+  Source: 192.168.1.0/24:-1
+  Destination: 192.168.100.0/24:3389
+  Protocol: UDP
+  Action: LOG
+  Priority: 89
+  Time: 0..23
+---------------------------------
+[Rule: Allow Backup]
+  Source: 172.16.0.0/16:-1
+  Destination: 10.0.1.0/24:0
+  Protocol: UDP
+  Action: ALLOW
+  Priority: 11
+  Time: 0..23
+---------------------------------
+[Rule: Log Developer Traffic]
+  Source: 192.168.1.0/24:-1
+  Destination: 6.6.6.6:22
+  Protocol: ANY
+  Action: DENY
+  Priority: 65
+  Time: 0..23
+---------------------------------
+[Rule: Allow Streaming]
+  Source: 172.16.0.0/16:-1
+  Destination: 8.8.8.8:80
+  Protocol: UDP
+  Action: DENY
+  Priority: 28
+  Time: 18..6
+---------------------------------
+[Rule: Block P2P]
+  Source: 172.16.0.0/16:-1
+  Destination: ANY:22
+  Protocol: ANY
+  Action: ALLOW
+  Priority: 85
+  Time: 18..6
+---------------------------------
+[Rule: Allow VPN]
+  Source: 10.0.0.0/8:-1
+  Destination: 8.8.8.8:443
+  Protocol: UDP
+  Action: LOG
+  Priority: 68
+  Time: 0..23
+---------------------------------
+[Rule: Log DNS Queries]
+  Source: 172.16.0.0/16:-1
+  Destination: 10.0.1.0/24:53
+  Protocol: TCP
+  Action: LOG
+  Priority: 38
+  Time: 18..6
+---------------------------------
+[Rule: Allow SMB]
+  Source: 172.16.0.0/16:-1
+  Destination: 10.0.1.0/24:443
+  Protocol: ANY
+  Action: LOG
+  Priority: 25
+  Time: 18..6
+---------------------------------
+[Rule: Block RDP]
+  Source: 192.168.1.0/24:-1
+  Destination: 6.6.6.6:53
+  Protocol: UDP
+  Action: LOG
+  Priority: 100
+  Time: 0..23
+---------------------------------
+[Rule: Allow Git]
+  Source: 172.16.0.0/16:-1
+  Destination: 8.8.8.8:445
+  Protocol: TCP
+  Action: DENY
+  Priority: 43
+  Time: 9..17
+---------------------------------
+[Rule: Block Gaming]
+  Source: 10.0.0.0/8:-1
+  Destination: 6.6.6.6:80
+  Protocol: ANY
+  Action: LOG
+  Priority: 92
+  Time: 9..17
+---------------------------------
+[Rule: Allow HTTP]
+  Source: ANY:-1
+  Destination: 10.0.1.0/24:443
+  Protocol: ANY
+  Action: DENY
+  Priority: 71
+  Time: 0..23
+---------------------------------
+[Rule: New Rule 26]
+  Source: ANY:-1
+  Destination: ANY:-1
+  Protocol: TCP
+  Action: ALLOW
+  Priority: 100
+---------------------------------
+[Rule: New Rule 27]
+  Source: ANY:-1
+  Destination: ANY:-1
+  Protocol: UDP
+  Action: ALLOW
+  Priority: 100
+---------------------------------
